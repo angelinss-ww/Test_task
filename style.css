@@ -1,0 +1,151 @@
+*{
+    padding: o;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+  
+    
+}
+body{
+    width: 1500px;
+    height: 720px;
+    position: relative;
+
+}
+.header {
+    width: 100%;
+    height: 60px;
+    
+}
+
+.contsiner {
+
+margin-left: auto;
+padding-top: 15px;
+width: 250px;
+display: flex;
+justify-content: space-between;
+margin-right: 30px;
+}
+.contsiner a{
+    margin-top: 5px;
+}
+.contsiner img{
+    height: 24px;
+    width: auto;
+    margin-top: -2px;
+}
+.contsiner button{
+    width: 80px;
+    height: 30px;
+    background: rgb(29, 114, 231);
+    border: 0cap;
+    border-radius: 3px;
+    color: white;
+}
+
+.main {
+    width: 590px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 100px;
+}
+.main_logo img {
+    margin-left: 50%;
+    transform: translate(-50%);
+    width: 350px;
+    height: auto;
+
+}
+
+.main_search {
+    width: 550px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid gray;
+    border-radius: 30px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+.main_search img{
+    height: 17px;
+    width: auto;
+}
+.main_search input{
+    width: 400px;
+    border: 0cap;
+    outline: none;
+}
+.main_buttons {
+    width: 330px;
+    height: 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+.language span{
+    
+    display: flex; 
+    margin-top: 15px;
+    justify-content: center;
+}
+.language a{
+    color: blue;
+}
+
+.main_buttons button {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(242, 242, 242);
+    border: 0;
+}
+.footer{    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.footer_country {
+    background-color: rgb(242, 242, 242);
+    width: 100%;
+    height: 30px;
+    border-bottom: 2px solid rgb(227, 227, 227);
+    padding-top: 15px;
+    
+}
+.footer_country span{
+    margin-left: 30px;
+}
+
+.footer_information {
+    background-color: rgb(242, 242, 242);
+    width: 100%;
+    height: 30px;
+    padding-top: 15px;
+}
+.footer_information_left {
+    display: inline-block;
+    width: 500px;
+}
+.footer_information_left a{
+    margin-left: 30px;
+}
+.footer_information_right {
+    display: inline-block;
+    width: 500px;
+    text-align: right;
+    float: right;
+    
+}
+.footer_information_right a{
+    margin-right: 30px;
+}
